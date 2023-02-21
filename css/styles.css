@@ -1,5 +1,17 @@
+html, body{
+  height: 100vh;
+}
+body.myBody{
+  background-color: #2f3236;
+}
 a{
   font-family: 'Source Sans Pro', sans-serif;
+}
+div.row{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 p.pDescription{
   font-family: 'Source Sans Pro', sans-serif;
@@ -14,7 +26,7 @@ div.card{
 div.card-body{
   background-color: #2f3236;
   width: 100%;
-  height:545px;
+  height:100vh;
   text-align: center;
   color: #ffffff;
 }
