@@ -1,59 +1,59 @@
 html, body{
   height: 100vh;
 }
-a{
-  font-family: 'Source Sans Pro', sans-serif;
-}
-nav{
-  text-align: left;
-}
 body.myBody{
   background-color: #2f3236;
 }
-button.navbar-toggler.btn.btn-light{
-  background-color: #D3D3D3;
-}
-.navbar-toggler-icon{
-  background-color: #D3D3D3;
-  border-radius: 5px;
-}
-.newColor{
+header.card-header{
   background-color: #000000;
+  border: 0;
+  border-radius: 0 !important;
+}
+a.nav-link{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+ul.nav a.nav-link:hover {
+  color: #a39e9e !important;
+}
+button.navbar-toggler{
+  background-color: #D3D3D3;
+}
+button.navbar-toggler:hover{
+  background-color: #a39e9e;
+  border-color: #a39e9e;
 }
 h1.card-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #2bd3d6;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 16px;
+  margin: 28px auto 22px;
 }
-p.pDescription{
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #ffffff;
-  font-size: 16px;
-  padding-bottom: 50px;
-  margin-bottom: 0;
+div.card{
+  border: 0;
+  border-radius: 0;
 }
-p.copyrightOther{
-  margin: 0;
-  color: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-}
-div.myRow{
+div.card-body{
   height: 100vh;
+  background-color: #2f3236;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
 }
 button.portfolioButton{
   padding: 10px 20px;
   margin-bottom: 20px;
   background-color: #000000;
-  border: 1px solid #000000;
+  border: 2px solid #2bd3d6;
   border-radius: 5px;
   color: #2bd3d6;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -62,17 +62,19 @@ button.m-b{
 }
 button.portfolioButton:hover{
   color: #ffffff;
+  border: 2px solid #ffffff;
 }
-footer.newColor{
-  background-color: #000000;
-  height: 56px;
+p.pDescription{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
 }
-@media (max-width: 360px){
-  h1.card-title{
-    font-size: 25px;
-  }
-  button.portfolioButton{
-    font-size: 16px;
-    padding: 10px 10px;
-  }
+footer.card-footer{
+    background-color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border: 0;
+    border-radius: 0 !important;
 }
